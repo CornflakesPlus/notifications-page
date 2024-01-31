@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+
+  <body>
+    <div class="notifications">
+      <h2>
+        Notifications&nbsp;
+        <span id="counter_notification"></span>
+      </h2>
+      <div class="main_buttons_div">
+        <button class="back_cn button_style" type="button">Back to CN</button>
+        <button class="mark_read button_style" type="submit">
+          Mark All As Read
+        </button>
+      </div>
+    </div>
+    <div class="choose_notification">
+      <button type="button" class="tournament_react">
+        React To: My First Tournament
+      </button>
+      <button type="button" class="winrate_react">
+        React To: 5 - End Game Strategies To Increase Your Win-Rate
+      </button>
+      <button type="button" class="pic_comment">Comment On My Chad Pic</button>
+      <button type="button" class="follow">Follow</button>
+      <button type="button" class="join">Join Group: Chess Club</button>
+      <button type="button" class="leave">Leave Group: Chess Club</button>
+      <button type="button" class="message_private">
+        Send Private Message
+      </button>
+    </div>
+
+    <form>
+      <div class="jcc">
+        <legend>Join Group: Chess Club</legend>
+        <label for="name_join">Enter Name:</label>
+        <input type="text" id="name_join" placeholder="Name" />
+        <button class="join_submit" type="submit">Submit</button>
+        <!-- <button class="back" type="button">Go Back</button> -->
+      </div>
+      <div class="leave_group">
+        <legend>Leave Group: Chess Club</legend>
+        <label for="name_leave">Enter Name:</label>
+        <input type="text" id="name_leave" placeholder="Name" />
+        <button class="leave_submit" type="submit">Submit</button>
+      </div>
+      <div class="tour_react">
+        <legend>React To: My First Tournament</legend>
+        <label for="name_tour">Enter Name:</label>
+        <input type="text" id="name_tour" placeholder="Name" />
+        <button class="tour_react_button" type="submit">Submit</button>
+      </div>
+      <div class="win_react">
+        <legend>React To: Increase Win-Rate Strategy</legend>
+        <label for="name_join">Enter Name:</label>
+        <input type="text" id="name_win" placeholder="Name" />
+        <button class="win_react_button" type="submit">Submit</button>
+      </div>
+      <div class="pic_com">
+        <legend>Comment On My Chad Picture</legend>
+        <img
+          class="andrew_img"
+          src="../Andrew.jpg"
+          alt="I'm Too Sexy For Your Disability"
+        />
+        <label for="name_join">Enter Name:</label>
+        <input type="text" id="name_com" placeholder="Name" />
+        <button class="pic_com_button" type="submit">Submit</button>
+      </div>
+      <div class="foll">
+        <legend>Follow</legend>
+        <label for="name_join">Enter Name:</label>
+        <input type="text" id="name_foll" placeholder="Name" />
+        <button class="follow_button" type="submit">Submit</button>
+      </div>
+      <div class="message">
+        <legend>Send Private Message</legend>
+        <label for="name_pri_message">Enter Name:</label>
+        <input type="text" id="name_pri_message" placeholder="Name" />
+        <button class="message_pri_name" type="submit">Submit</button>
+      </div>
+      <div class="area_text">
+        <label for="comment">Type Your Message (Non Sexual):</label>
+        <textarea type="textarea" id="comment"></textarea>
+        <button class="message_pri_message" type="submit">Submit</button>
+      </div>
+      <button class="back" type="button">Go Back</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
