@@ -9,18 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  /* align-items: center; */
-  /* min-height: 100vh; */
-  /* overflow: hidden; */
 }
-
-/* .notifications {
-  background-color: #fff;
-  margin-top: 3rem;
-  box-shadow: 5px 5px 5px #655f5f;
-  border-radius: 1rem;
-} */
 
 .notifications,
 .leave_group,
@@ -160,7 +149,6 @@ form div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-top: 5rem; */
 }
 
 form legend {
@@ -181,12 +169,7 @@ form input {
 form .back {
   width: 10rem;
   cursor: pointer;
-  /* width: 20rem; */
   margin-top: 5rem;
-  /* margin-right: auto;
-  margin-bottom: 2rem; */
-  /* margin-left: auto; */
-  /* margin-right: 0.5rem; */
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   background-color: #e9dcdc;
@@ -206,7 +189,6 @@ form .back:active {
 }
 
 form div button {
-  /* margin-left: auto; */
   margin-top: 1rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
@@ -238,7 +220,6 @@ img {
   height: 50%;
   border: solid rgb(190, 97, 97) 10px;
   border-radius: unset;
-  /* border-radius: 70%; */
 }
 
 h2 {
@@ -284,7 +265,6 @@ h2 {
   justify-content: flex-start;
   align-items: center;
   text-align: left;
-  /* width: 100%; */
   padding: 1.5rem;
   margin: 0.5rem 0.5rem 0.5rem;
   border-radius: 0.2rem;
@@ -348,7 +328,6 @@ h2 {
 .para_private {
   align-items: center;
   align-content: center;
-  /* text-align: center; */
   margin-left: -100px;
   margin-top: 6rem;
 }
@@ -357,13 +336,6 @@ h2 {
   background-color: #fff;
 }
 
-/*  */
-
-/* .unread_notification {
-  background-color: hsl(210, 60%, 98%);
-}
-*/
-
 @media screen and (min-width: 600px) {
   body {
     background-color: hsl(210, 60%, 98%);
@@ -371,7 +343,6 @@ h2 {
 
   .notifications {
     min-width: 650px;
-    /* max-width: ; */
     margin: auto;
     padding: 1rem;
     background-color: #fff;
